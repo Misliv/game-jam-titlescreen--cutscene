@@ -158,6 +158,12 @@ function Cutscene () {
     mySprite = sprites.create(assets.image`Clay Mattson Cutscene smile`, SpriteKind.Player)
     game.showLongText("Oh boy I can't wait to put out more fires!", DialogLayout.Bottom)
     mySprite.destroy()
+    mySprite = sprites.create(assets.image`Clay Mattson Cutscene looking`, SpriteKind.Player)
+    game.showLongText("Speaking of fires, I see one in the distance!", DialogLayout.Bottom)
+    mySprite.destroy()
+    mySprite = sprites.create(assets.image`Clay Mattson Cutscene smile`, SpriteKind.Player)
+    game.showLongText("Let's go!", DialogLayout.Bottom)
+    mySprite.destroy()
 }
 let line: Sprite = null
 let mySprite: Sprite = null
